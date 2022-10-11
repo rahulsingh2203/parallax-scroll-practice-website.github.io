@@ -1,5 +1,22 @@
-@media screen and (max-width: 700px){
-    header{
+@media screen and (max-width: 700px) {
+    header {
         flex-direction: column;
+    }
+    header ul{
+        padding-top: 10px;
+    }
+
+    #text {
+        font-size: 17.5vw;
+        right: -390px;
+    }
+
+    .sec {
+        padding: 30px;
+    }
+
+    .sec h2 {
+        font-size: 2em;
+        width: 100%;
     }
 }
